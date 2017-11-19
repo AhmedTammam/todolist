@@ -1,0 +1,72 @@
+/*
+background: #25B89A;
+background: #ECF0F0;
+*/
+body {
+  background: #ECF0F0;
+
+}
+.header {
+  background: #25B89A;
+  padding: 15px 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 40px;
+}
+.item {
+  background: rgba(255, 255, 255, 0.5)!important;
+  color: #fff;
+  border: 0!important;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+.item:focus {
+  color: #fff;
+}
+
+.item::-webkit-input-placeholder {
+  color: white;
+}
+
+.liMa {
+  margin-bottom: 10px;
+}
+
+#add {
+  position: absolute;
+  right:0px;
+  background: white;
+  cursor: pointer;
+  z-index: 30px;
+  border: 0;
+  border-radius: 20px;
+}
+
+#add:hover{
+  background: rgba(37, 184, 154, 0.5);
+}
+#add:hover > i {
+  color: #fff;
+}
+
+#add i{
+  color: #25B89A;
+}
+
+.Access button {
+  background: white;
+  border: 0;
+}
+.Access button:hover{
+  background: #fff;
+}
+.Access button:hover > i {
+  color: #E75556;
+}
+.Access button > i {
+  color: #25B89A;
+}
+
+#compeleted {
+  margin-top: 20px;
+}
